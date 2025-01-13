@@ -1,0 +1,46 @@
+<h1 style="text-align: center;">Inside App Component</h1>
+
+<h3 style="text-align: center;">Assignemnt => 5</h3>
+<app-first-comp style="text-align: center;"></app-first-comp>
+<app-first-comp1 style="text-align: center;"></app-first-comp1>
+<app-second-comp1 style="text-align: center;"></app-second-comp1>
+<app-first-comp2 style="text-align: center;"></app-first-comp2>
+
+<h3 style="text-align: center;">Assignemnt => 6</h3>
+<app-demo-comp style="text-align: center;"></app-demo-comp>
+<app-demo-comp2 style="text-align: center;"></app-demo-comp2>
+<app-demo-comp3 style="text-align: center;"></app-demo-comp3>
+<app-new-comp style="text-align: center;"></app-new-comp>
+
+<h3 style="text-align: center;">Assignemnt => 7</h3>
+<app-first-comp3 style="text-align: center;"></app-first-comp3>
+<app-second-comp3 style="text-align: center;"></app-second-comp3>
+<app-demo-comp4 style="text-align: center;"></app-demo-comp4>
+
+<h3 style="text-align: center;">Assignemnt => 8</h3>
+<h2 style="text-align: center;">Inside Parent Component</h2>
+<app-child (Myevent)="Data = $event" style="text-align: center;"></app-child>
+<h2 style="text-align: center;">Message From Child Component is : {{Data}}</h2>
+<h2 style="text-align: center;">Inside Parent Component</h2>
+<app-child2 style="text-align: center;" (Myevent)="Data1 = $event" [Data2] = "Message2"></app-child2>
+<h2 style="text-align: center;">Message From Child Component to Parent Component is : {{Data1}}</h2>
+<input #data style="margin-left: 45%;" type="text" name="" id="">
+<button style="margin-left: 48%;" (click)="SendData(data.value)">Press</button>
+<app-demo-comp5 style="text-align: center;"></app-demo-comp5>
+<app-demo-comp6 style="text-align: center;"></app-demo-comp6>
+
+<h3 style="text-align: center;">Assignment => 9</h3>
+<app-demo-comp7 style="text-align: center;"></app-demo-comp7>
+<router-outlet></router-outlet>
+
+
+<app-first3></app-first3>
+<app-first4></app-first4>
+<app-secnd3></app-secnd3>
+
+<app-first5></app-first5>
+
+<app-demo-comp8></app-demo-comp8>
+<app-demo-comp9></app-demo-comp9>
+<app-demo-comp10></app-demo-comp10>
+<app-first6></app-first6>
